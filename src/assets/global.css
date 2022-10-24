@@ -1,0 +1,49 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.el-table .fixed-width .el-button--mini {
+    padding-left: 0;
+    padding-right: 0;
+    width: inherit;
+}
+
+.small-padding cell {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.el-button [class*=el-icon-]+span {
+    margin-left: 0;
+}
+
+/**滚动条的宽度*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/*全局滚动条的滑块*/
+::-webkit-scrollbar-thumb {
+    background-color: #8c939d;
+    border-radius: 3px;
+}
+
+/*修改表格(el-table)的滚动条*/
+.el-table__body-wrapper::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+/*el-table滚动条的滑块*/
+.el-table__body-wrapper::-webkit-scrollbar-thumb {
+    background-color: #f78989;
+    border-radius: 3px;
+}
+
+
